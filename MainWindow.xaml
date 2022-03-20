@@ -1,0 +1,17 @@
+﻿<Window x:Class="myfirstapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myfirstapp"
+        mc:Ignorable="d"
+       Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock  Name="log" Text="Login" MinHeight="40" MinWidth="200" MaxHeight="40" MaxWidth="200" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBox Name="Login" MinHeight="40" MinWidth="200" MaxHeight="40" MaxWidth="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,40"/>
+        <TextBlock Name="pas" Text="Password" MinHeight="40" MinWidth="200" MaxHeight="40" MaxWidth="200" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,80"/>
+        <PasswordBox  x:Name="Password" MinHeight="40" MinWidth="200" MaxHeight="40" MaxWidth="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,120"/>
+        <Button Click="Button_Click_1" MaxHeight="40" MaxWidth="100">Подтвердить
+        </Button>
+    </Grid>
+</Window>
